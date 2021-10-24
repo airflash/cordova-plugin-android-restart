@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
+import app.mws.my.guard.b.MainActivity;
 
 public class RestartApp extends CordovaPlugin {
 
@@ -61,7 +62,7 @@ public class RestartApp extends CordovaPlugin {
         protected void restart() throws Exception{
         String baseError = "Unable to cold restart application: ";
         try {
-           // this works for me
+           // this works for me (line 24 modify required)
             Intent intent = new Intent(applicationContext, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             applicationContext.startActivity(intent);
