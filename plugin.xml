@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-restartapp" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>cordova-plugin-restartapp</name>
-    <js-module name="restartApp" src="www/cordova-plugin-restartapp.js">
+<plugin id="cordova-plugin-android-restart" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-android-restart</name>
+    <js-module name="restartApp" src="www/cordova-plugin-android-restart.js">
         <clobbers target="navigator.app.restartApp" />
     </js-module>
 
