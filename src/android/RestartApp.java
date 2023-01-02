@@ -21,7 +21,7 @@ import android.content.Intent;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import app.mws.my.guard.b.MainActivity;
+import com.free5min.farkleio.MainActivity;
 
 public class RestartApp extends CordovaPlugin {
 
